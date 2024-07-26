@@ -4,6 +4,7 @@ import About from "./view/About";
 import Header from "./components/Header";
 import Tokenomics from "./view/Tokenomics";
 import Contact from "./view/Contact";
+import FAQ from "./view/FAQ";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <Tokenomics />
+      <FAQ />
       <Contact />
     </main>
   );

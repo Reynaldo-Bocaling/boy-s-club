@@ -24,6 +24,7 @@
 
 body {
   background: #02d5ff;
+  font-size: calc(1rem * var(--bfso, 1));
 }
 
 @layer utilities {
@@ -110,12 +111,7 @@ body {
 
 
 
-#tokenomics {
-  background-image: url('/img/tokenomics_bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 .btnStyle {
   background-image: url('/img/button_bg.png');
@@ -147,3 +143,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+
+
+@media (max-width: 767px) {
+  body {
+    zoom: 50%;
+
+  }
+}
+
+/* @media (max-width: 967px) {
+  body {
+    zoom: 50%;
+  }
+} */

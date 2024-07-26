@@ -3,7 +3,7 @@ import { tokenomics } from "../constants";
 
 const Tokenomics = () => {
   return (
-    <section id="tokenomics2" className="relative   bg-reds-500">
+    <section id="tokenomics" className="relative   bg-reds-500">
       <div className="w-full flexColCenter absolute bottom-1/4 translate-y-1/2 ">
         <h1 className="text-7xl font-bold">Tokenomics</h1>
         <div className="flexCenter gap-7 mt-12">

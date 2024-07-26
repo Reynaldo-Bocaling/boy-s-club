@@ -16,7 +16,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <button className="title btnStyle  ml-10 px-8 pt-3 py-7 bg-red-s">
+        <button className="title btnStyle hover:scale-110 duration-300 transition-all  ml-10 px-8 pt-3 py-7 bg-red-s">
           Buy Now
         </button>
       </nav>

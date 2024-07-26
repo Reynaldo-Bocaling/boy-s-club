@@ -6,14 +6,36 @@ import nft4 from "/img/NFT4.png";
 export const navlinks = [
   {
     label: "Members",
-    url: "",
+    url: "#members",
   },
   {
     label: "Tokenomics",
-    url: "",
+    url: "#tokenomics",
   },
   {
     label: "FAQ",
+    url: "#faq",
+  },
+];
+export const socialLinks = [
+  {
+    img: nft1,
+    url: "",
+  },
+  {
+    img: nft1,
+    url: "",
+  },
+  {
+    img: nft1,
+    url: "",
+  },
+  {
+    img: nft1,
+    url: "",
+  },
+  {
+    img: nft1,
     url: "",
   },
 ];
@@ -59,5 +81,28 @@ export const tokenomics = [
   {
     label: "Number",
     value: "0%",
+  },
+];
+
+export const faq = [
+  {
+    title: "question 1",
+    value:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eos assumenda minus delectus dolor blanditiis fuga sequi sunt, eum vel!",
+  },
+  {
+    title: "question 1",
+    value:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eos assumenda minus delectus dolor blanditiis fuga sequi sunt, eum vel!",
+  },
+  {
+    title: "question 1",
+    value:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eos assumenda minus delectus dolor blanditiis fuga sequi sunt, eum vel!",
+  },
+  {
+    title: "question 1",
+    value:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eos assumenda minus delectus dolor blanditiis fuga sequi sunt, eum vel!",
   },
 ];

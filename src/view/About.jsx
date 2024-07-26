@@ -3,7 +3,7 @@ import { member } from "../constants";
 
 const About = () => {
   return (
-    <section className="relative h-00px]">
+    <section id="members" className="relative h-00px]">
       <div className="max-w-7xl mx-auto flexColCenter py-7">
         <h1 className="text-5xl">The Boy's Club Members</h1>
         <div className="flexCenter gap-7 mt-7">
