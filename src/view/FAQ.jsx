@@ -3,7 +3,7 @@ import { faq } from "../constants";
 
 const FAQ = () => {
   return (
-    <section className="relative w-full  ">
+    <section id="faq" className="relative w-full  ">
       <div className="max-w-7xl mx-auto flexCenter gap-12 pt-20 pb-12 px-9">
         <div className="w-1/2 ">
           <h1 className="text-4xl text-blue-500">FREQUENTLY ASKED QUESTIONS</h1>
