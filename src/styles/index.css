@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sigmar One", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.title {
+  font-family: "Sigmar One", sans-serif;
+}
+
+.normal {
+  font-family: "Anton", sans-serif;
+}
+
+body {
+  background: #02d5ff;
+}
+
+@layer utilities {
+
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
+  .flexAround {
+    @apply flex items-center justify-around;
+  }
+
+  .flexStart {
+    @apply flex items-center justify-start;
+  }
+
+  .flexEnd {
+    @apply flex items-center justify-end;
+  }
+
+  .flexColStart {
+    @apply flex flex-col items-start justify-center
+  }
+
+  .flexColCenter {
+    @apply flex flex-col items-center justify-center
+  }
+
+  .flexColEnd {
+    @apply flex flex-col items-end justify-center
+  }
+
+  .flexColBetween {
+    @apply flex flex-col items-center justify-between
+  }
+
+
+}
+
+
+/* shadow */
+
+.s {
+  background-image: url('/img/hero_cloud.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero::after {
+
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1000px;
+  height: 500px;
+  border-radius: 20%;
+  background: radial-gradient(ellipse at center, hsla(0, 100%, 51%, 0.7),
+      transparent 64%);
+  z-index: 0;
+
+}
+
+#about::before {
+
+  content: '';
+  position: absolute;
+  top: -150px;
+  right: -250px;
+  width: 700px;
+  height: 600px;
+  border-radius: 20%;
+  background: radial-gradient(ellipse at center, hsla(108, 64%, 29%, 0.25),
+      transparent 64%);
+  z-index: 0;
+
+}
+
+
+
+#tokenomics {
+  background-image: url('/img/tokenomics_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btnStyle {
+  background-image: url('/img/button_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blur_effect {
+  background: rgba(27, 27, 27, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.aboutMemberBox::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  background: #3b82f6;
+  height: 100%;
+  width: 100%;
+  transform: rotate(5deg);
+
+}
+
+.tokenomicsBox {
+  background-image: url('/img/button_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
